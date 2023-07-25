@@ -18,9 +18,9 @@ public class Base_class implements Frameworkconstants
 		driver.get(url);
 		Thread.sleep(1500);
 	}
-	/*@AfterMethod
+	@AfterMethod
 	public void closeapp()
 	{
 		driver.close();
-	}*/
+	}
 }
